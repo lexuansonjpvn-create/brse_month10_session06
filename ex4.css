@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.5;
+}
+
+.blog-wrapper {
+    /* max-width: 960px; */
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/* Header màu xanh lá */
+.blog-header {
+    background-color: #4caf50;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 20px;
+}
+
+.blog-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.blog-nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.blog-nav a {
+    color: #1b3b82;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+/* Khu vực nội dung 2 cột */
+.blog-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 24px 28px;
+    gap: 36px;
+}
+
+/* Cột trái: Chuyên mục */
+.sidebar {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.sidebar-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 8px;
+}
+
+.category-list {
+    list-style-type: disc;
+    padding-left: 22px;
+}
+
+.category-list li {
+    margin-bottom: 4px;
+}
+
+.category-list a {
+    color: #1a4fb8;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+/* Cột phải: Danh sách bài viết */
+.posts-section {
+    flex: 1;
+}
+
+.post-item {
+    margin-bottom: 22px;
+}
+
+.post-item:last-child {
+    margin-bottom: 0;
+}
+
+.post-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.post-thumbnail {
+    width: 140px;
+    height: 92px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 8px;
+    background-color: #f4d03f;
+}
+
+.post-summary {
+    font-size: 12px;
+    color: #444444;
+}
+
+/* Footer tối màu */
+.blog-footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 12px;
+}
+
+.blog-footer a {
+    color: #8ab4f8;
+    text-decoration: underline;
+}
